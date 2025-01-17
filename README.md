@@ -20,6 +20,7 @@ For debian ex: `/etc/fail2ban/jail.d/defaults-debian.conf`
 ```bash
 [pterodactyl-sftp]
 enabled = true
+port = 2022
 maxretry = 3
 findtime = 3600
 bantime = -1
